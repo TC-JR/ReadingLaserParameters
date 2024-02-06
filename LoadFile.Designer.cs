@@ -74,7 +74,6 @@
             AddFile_btn.Size = new Size(100, 35);
             AddFile_btn.TabIndex = 2;
             AddFile_btn.Text = "添加文件";
-            AddFile_btn.TipsFont = new Font("宋体", 9F, FontStyle.Regular, GraphicsUnit.Point);
             AddFile_btn.Click += AddFile_btn_Click;
             // 
             // StartIo_box
@@ -120,7 +119,6 @@
             Save_btn.Size = new Size(100, 35);
             Save_btn.TabIndex = 5;
             Save_btn.Text = "保存";
-            Save_btn.TipsFont = new Font("宋体", 9F, FontStyle.Regular, GraphicsUnit.Point);
             Save_btn.Click += Save_btn_Click;
             // 
             // uiLabel2
@@ -159,6 +157,7 @@
             Controls.Add(uiLabel2);
             Controls.Add(uiLabel1);
             Name = "LoadFile";
+            StartPosition = FormStartPosition.CenterParent;
             Text = "LoadFile";
             ResumeLayout(false);
         }
